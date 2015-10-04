@@ -12,6 +12,11 @@
 			android:title="@string/camera_title_head" />
 
 		<CheckBoxPreference
+			android:key="torch"
+			android:summary="@string/torch_summary_head"
+			android:title="@string/torch_title_head" />
+
+		<CheckBoxPreference
 			android:key="key_disabler"
 			android:summary="@string/key_disabler_summary_head"
 			android:title="@string/key_disabler_title_head" />
